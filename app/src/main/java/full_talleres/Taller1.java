@@ -22,7 +22,7 @@ public class Taller1 {
         System.out.println(Convertir_cm_lt((double)3500));
         System.out.println(Convertir_us_cops((int)45623));
         System.out.println(Convertir_cent_far((float)0));
-        System.out.println(Calcular_segs((byte)1, (byte)1, (byte)1, (byte)1));
+        System.out.println(Calcular_segs((short)1, (short)1, (short)1, (short)1));
         System.out.println(Calcular_peso_carga((float)47.5, (float)7.5));
         System.out.println(Calcular_horasxviaje("Armenia", (short)285, (short)72));
         System.out.println(Calcular_combustible((double) 638, 312, 1243, 220));
@@ -95,7 +95,7 @@ public class Taller1 {
    el número de minutos y número segundos como enteros bytes, positivos y devuelva todo en segundos en un entero. 
    Si hay algún error, devuelva -1.
    */
-    public static int Calcular_segs(byte dias, byte horas, byte minutos, byte segundos) {
+    public static int Calcular_segs(short dias, short horas, short minutos, short segundos) {
 
         try {
             int seg= 0;
